@@ -19,3 +19,9 @@ def down():
     turtle.right(90)
     turtle.stamp()
 
+turtle.shape('turtle')
+turtle.onkey(left,'a')
+turtle.onkey(right,'d')
+turtle.onkey(up,'w')
+turtle.onkey(down,'s')
+turtle.listen()
