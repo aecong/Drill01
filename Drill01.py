@@ -18,10 +18,13 @@ def down():
     turtle.setheading(0)
     turtle.right(90)
     turtle.stamp()
-
+def restart():
+    turtle.reset()
+    
 turtle.shape('turtle')
 turtle.onkey(left,'a')
 turtle.onkey(right,'d')
 turtle.onkey(up,'w')
 turtle.onkey(down,'s')
+turtle.onkey(restart,'Escape')
 turtle.listen()
